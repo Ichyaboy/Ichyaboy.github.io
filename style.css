@@ -1,0 +1,101 @@
+body{
+    background-color: #212121;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Header {
+    display: flex;
+    align-items: center; 
+    
+}
+
+.Header img{
+    height: 200px;
+}
+.Header p{
+    font-size: large;
+    border-bottom: 11px;
+    font-size: 40px;
+    color: azure;
+}
+
+.welcome{
+    color: white;
+    margin-left: 150px ;
+}
+.welcome p {
+    font-size: 22px;
+    margin: 25px;
+}
+
+.mission{
+    color: white;
+    margin-left: 150px ; 
+}
+
+.mission p{
+    font-size: 22px;
+}
+.mission dt{
+    color:rgb(92, 173, 92);
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+.mission dd{
+    margin-top: 7px;
+    font-size: 18px;
+    
+}
+
+
+.list li {
+    cursor: pointer;
+}
+
+.list li{
+    list-style-type: none;
+    padding: 6px;
+    font-size: 25px;
+    color: lightgreen;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+.list a{
+    text-decoration: none;
+    color: lightsalmon;
+}
+
+.list a:hover{
+    color: green;
+}
+
+.list a:visited{
+    color: lightgreen;
+    
+}
+
+ul.nested-list {
+    display: none;
+  }
+
+ul.nested-list.active {
+  display: block;
+}
+.nested-list li{
+    margin-top: 4px;
+    list-style-type: none;
+    padding:5px;
+    font-size: 21px;
+    color: lightgreen;
+    text-shadow: none;
+    font-weight: bold;
+    
+    
+}  
+
+
+
+
+
+
